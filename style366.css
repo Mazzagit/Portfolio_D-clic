@@ -1,0 +1,14 @@
+body{
+    background-image: url(WhatsApp\ Image\ 2023-05-08\ à\ 09.29.32.jpg), no-repeat;
+    background-color: gray;
+    background-blend-mode: multiply;
+
+}
+
+
+.vert{
+    justify-content: flex-end;
+    background-color: black;
+    height: 1px solid border;
+    width: auto;
+}

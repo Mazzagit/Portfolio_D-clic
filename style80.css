@@ -1,0 +1,104 @@
+@import url();
+
+html,
+body {
+  height: 100%;
+}
+
+.contener {
+  flex-grow: 1;
+}
+
+
+body {
+  background-image: url(WhatsApp\ Image\ 2023-05-08\ à\ 09.29.32.jpg);
+background-attachment: fixed;
+  background-size: cover;
+  background-color: rgb(51, 50, 50);
+  background-blend-mode: multiply;
+  color: white;
+  display: flex;
+  flex-direction: column;
+
+
+}
+
+nav {
+  background: initial;
+}
+
+
+.vert {
+  justify-content: center;
+  background-color: black;
+  height: 1px solid border;
+  width: auto;
+}
+
+.vio {
+  text-align: center;
+  justify-content: center;
+  color: white;
+}
+
+.mio {
+  text-align: center;
+  color: white;
+  margin-top: 100px;
+}
+
+.vie {
+  width: 100px;
+}
+
+hr {
+  color: red;
+  background-color: rgb(255, 136, 0);
+  padding: 2px;
+  border: none;
+}
+
+.container img {
+  image-orientation: from-image;
+  padding-top: 50%;
+  width: 50px;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.image2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.container {
+  display: inline-block;
+}
+
+.containerd img {
+  vertical-align: middle;
+}
+
+.containerd p {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+
+.item {
+  margin: 10px;
+}
